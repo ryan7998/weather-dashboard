@@ -147,7 +147,7 @@ var showForecast = function(forecaseArrPara){
 
         var iconSpan = document.createElement("span");
         var foreIconEl = document.createElement("img");
-        str = 'http://openweathermap.org/img/wn/' + weatherIcon + '.png';
+        str = 'https://openweathermap.org/img/wn/' + weatherIcon + '.png';
         foreIconEl.setAttribute("src", str );
         iconSpan.appendChild(foreIconEl);
 
