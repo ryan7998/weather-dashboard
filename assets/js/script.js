@@ -23,7 +23,7 @@ var showCurrentWeather = function(cityP, timeP, weatherIconP, tempP, humidityP, 
     cityNameEl.textContent = cityP;
     dateEl.textContent = timeP;
     var iconImage = document.createElement("img");
-    var scrString = 'http://openweathermap.org/img/wn/' + weatherIconP + '.png';
+    var scrString = 'https://openweathermap.org/img/wn/' + weatherIconP + '.png';
     var uvClass = '';
     iconImage.setAttribute("src", scrString );
     iconEl.appendChild(iconImage);
