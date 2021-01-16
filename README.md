@@ -16,3 +16,5 @@
 - data saved as array text in local storage
 - if city not found an alert message appears
 - event listeners created for click button and click list items
+
+link: https://ryan7998.github.io/weather-dashboard
