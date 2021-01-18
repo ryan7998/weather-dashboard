@@ -155,7 +155,7 @@ var showForecast = function(forecaseArrPara){
         tempEl.textContent = 'Temp: ' + temp + ' °F';
 
         var humidityEl = document.createElement("span");
-        humidityEl.textContent = humidity + '%';
+        humidityEl.textContent = 'Humidity: ' + humidity + '%';
 
         var cardEl = document.createElement("div");
         cardEl.setAttribute("class", "card text-white bg-primary m-3 p-3 col-md-2");
